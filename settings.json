@@ -1,0 +1,107 @@
+{
+	//*** LAYOUT CHANGES
+	"window.restoreWindows": "none",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 16,
+	// "editor.minimap.enabled": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.statusBar.visible": false,
+	// "breadcrumbs.enabled": false,
+
+	//*** SAVE
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 500,
+	"editor.formatOnSave": true,
+
+	//*** TAGS (HTML, JSX)
+	"editor.linkedEditing": true,
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+
+	//*** EMMET
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+
+	//*** IMPORT
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	//*** TERMINAL
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
+	"terminal.integrated.cursorBlinking": true,
+
+	//*** PYTHON
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"python.analysis.autoImportCompletions": true,
+
+	//*** LIVE SERVER
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	//*** SHOW HIDDEN FILES
+	"files.exclude": {
+		"**/.git": false
+	},
+
+	//*** FORMAT, PRETTIER
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	// "editor.formatOnPaste": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"terminal.external.osxExec": "warp.app",
+	"security.workspace.trust.untrustedFiles": "open",
+	// "prettier.printWidth": 120,
+
+	// ******************************************************************************
+	// ******************************************************************************
+	// ********* temporary place down below >>>
+	// ******************************************************************************
+	// ******************************************************************************
+
+	"tailwindCSS.includeLanguages": {
+		"blade": "html",
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	// "tailwindCSS.suggestions": true,
+	"sqltools.format": {
+		"reservedWordCase": "upper",
+		"linesBetweenQueries": 3
+	},
+	// "[sql]": {
+	// 	"editor.defaultFormatter": "mtxr.sqltools"
+	// },
+
+	"terminal.integrated.fontFamily": "Meslo LG L DZ for Powerline",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"gitlens.advanced.messages": {
+		"suppressRebaseSwitchToTextWarning": true
+	},
+	"workbench.editorAssociations": {
+		"git-rebase-todo": "default"
+	},
+	"editor.accessibilitySupport": "off",
+	"security.promptForLocalFileProtocolHandling": false,
+	"gitlens.views.searchAndCompare.avatars": false,
+	"markdown-preview-enhanced.enablePreviewZenMode": false,
+	"markdown-preview-enhanced.revealjsTheme": "black.css",
+	"markdown-preview-enhanced.previewTheme": "atom-dark.css"
+
+	// "python.analysis.typeCheckingMode": "basic"
+}
